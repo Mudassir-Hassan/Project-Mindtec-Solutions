@@ -1,0 +1,382 @@
+﻿
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Arial;
+    font-size: 12px;
+    color: #1a1a1a;
+}
+
+
+
+
+h1 {
+    margin: 0px;
+    padding: 10px;
+    font-size: 200%;
+    font-weight:600;
+    font-size:60px;
+
+}
+
+h2 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.1;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size:40px;
+  color:#dbaeae;
+}
+
+h3 {
+}
+
+/************** Main Layout Styles*****************/
+
+.header {
+    background-color: #870b0b;
+    color: #ffffff;
+}
+
+    .header a {
+        color: #ffffff;
+    }
+
+.workingArea1{
+     width: 1500px;
+    margin: auto;
+}
+
+.workingArea {
+    width: 980px;
+    margin: auto;
+}
+
+.appTitleSec {
+    width: 700px;
+    float: left;
+}
+
+.loginStatusSec {
+    text-align: right;
+    width: 280px;
+    float: left;
+}
+
+
+
+.footer {
+    margin-top: 10px;
+    background-color: #870b0b;
+    color: #ffffff;
+}
+
+    .footer h3 {
+        padding: 5px 0px;
+        margin: 0px;
+        font-size: 120%;
+        font-weight: bold;
+    }
+
+    .footer p {
+        padding: 2px 0px;
+        margin: 0px;
+    }
+
+.footerLeftSec {
+    width: 330px;
+    text-align: justify;
+    float: left;
+}
+
+.footerMiddleSec {
+    width: 330px;
+    float: left;
+}
+
+.footerRightSec {
+    width: 320px;
+    text-align: right;
+    float: left;
+}
+
+.mainLeftSec {
+    width: 280px;
+    float: left;
+}
+
+.mainRightSec {
+    width: 690px;
+    margin: 0px 0px 0px 10px;
+    float: left;
+}
+
+.categoryListSec {
+}
+
+
+.categoryListItem {
+    padding: 10px;
+    margin-top: 1px;
+    background-color: #870b0b;
+}
+
+.categoryListItem1 {
+    background-color: #122bef;
+}
+
+
+
+.categoryListSec a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.categoryListSec h3 {
+    padding: 0px;
+    margin: 0px;
+    font-size: 120%;
+    font-weight: normal;
+}
+
+.searchProductSec {
+    padding: 20px;
+    background-color: #00ff00;
+}
+
+.searchAdvLinkWraper {
+    width: 160px;
+    float: left;
+}
+
+.searchGoButtonWraper {
+    width: 80px;
+    float: left;
+    text-align: right;
+}
+
+.tProductsSec {
+}
+
+.tProductSecRow {
+    margin: 3px 0px 0px 0px;
+}
+
+.tProductWraper {
+    border: solid 1px #e5e3e3;
+    padding: 4px;
+    width: 160px;
+    float: left;
+    margin-right: 3px;
+}
+
+.tProductWraperLast {
+    border: solid 1px #e5e3e3;
+    padding: 4px;
+    width: 160px;
+    float: left;
+}
+
+.tProductImageWraper {
+}
+
+.tProductImage {
+    width: 160px;
+    height: 160px;
+}
+
+.tProductNameWraper {
+}
+
+.tProductName {
+}
+
+.tProductPriceWraper {
+}
+
+.tProductPrice {
+}
+/***********Common Styles*************/
+.clearSec {
+    clear: both;
+}
+
+/***********Main Banner Styles*************/
+.mBannerSec {
+    margin: 10px 0px;
+}
+
+.mBannerSlideSec {
+    width: 970px;
+    height: 300px;    
+    border-top: solid 1px #870b0b;
+    border-left:solid 1px #870b0b;
+    border-right:solid 1px #870b0b;
+    padding: 4px;
+}
+
+.mBannerSlideImage {
+    width: 970px;
+    height: 300px;
+}
+
+.mBannerThumbSec {
+    border-bottom: solid 1px #870b0b;
+    border-left:solid 1px #870b0b;
+    border-right:solid 1px #870b0b;
+    padding: 4px;
+}
+
+.mBannerThumbWraper {
+    margin:5px;
+    float:left;
+}
+
+.mBannerThumbImage {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+.imgPrvSec {
+    margin-top:10px;
+    width:200px;
+}
+
+.imgPrvMainImageWraper {
+    width:200px;
+}
+
+.imgPrvMainImage {
+     width:192px;
+     height:200px;
+}
+
+.imgPrvThumbnailWraper {
+    width:40px;
+    height:40px;
+    padding:2px;
+    border: 1px solid #CCCCCC;
+    float:left;
+    margin:1px;
+}
+.imgPrvThumbnail { 
+    width: 40px;
+    height: 40px;
+}
+
+
+/****************Form & Control Styles******************/
+
+fieldset {
+    border: solid 1px #870b0b;
+}
+
+legend {
+    color: #870b0b;
+}
+
+
+.fieldLabelWraper {
+    padding: 2px 0px 0px 0px;
+}
+
+.fieldLabel {
+    color: #870b0b;
+}
+
+.fieldControlWraper {
+    padding: 0px 0px 5px 0px;
+}
+
+
+
+
+.textBox {
+    border: solid 1px #870b0b;
+    padding: 3px;
+}
+
+
+.dropDownList {
+    padding: 2px;
+    border: solid 1px #861616;
+    color: #861616;
+}
+
+.errorTextBox {
+    padding: 2px;
+    border: solid 1px #ff0000;
+    color: #861616;
+    background-color: #f7cece;
+}
+
+.accessKey {
+    text-decoration: underline;
+}
+
+.buttonNormal {
+    border: solid 1px #870b0b;
+    color: #870b0b;
+    background-color: #ffffff;
+    padding: 5px;
+}
+
+.buttonPrime {
+    border: solid 1px #870b0b;
+    color: #ffffff;
+    background-color: #870b0b;
+    padding: 5px;
+}
+
+/******************Styles for Status update and comments*************************/
+.statusSec {    
+    padding:20px;
+    background-color: #FFFFCC;
+    margin-bottom:1px;
+}
+
+.statusWraper {
+   
+}
+
+.commentLinkWraper {
+    
+}
+
+
+.commentsSec {
+    padding:10px 20px;
+    background-color: #FFE6FF;
+}
+.commentWraper {
+    padding:5px 0px;
+}
+.commentInputSec {
+    padding: 5px 0px 0px 0px;
+}
+
+.commentInputWraper {
+    background-color:#E6E6E6;
+    position:absolute;
+    width:500px;
+    padding: 25px;
+}
+
+.commentImage {
+    width: 30px;
+    height:30px;
+
+}
+
+.commentImageWraper{
+    width: 30px;
+    padding:5px;
+    border: solid 1px #CCCCCC;    
+    float:left;
+}
+commentTextWraper{
+    margin: 0px 5px;
+}
